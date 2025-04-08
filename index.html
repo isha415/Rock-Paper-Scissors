@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="ficon/favicon-96x96.png" sizes="96x96" />
+   <link rel="icon" type="image/svg+xml" href="ficon/favicon.svg" />
+   <link rel="shortcut icon" href="ficon/favicon.ico" />
+   <link rel="apple-touch-icon" sizes="180x180" href="ficon/apple-touch-icon.png" />
+   <link rel="manifest" href="ficon/site.webmanifest" />
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Rock Paper Scissors</title>
+</head>
+<body>
+  <!-- container -->
+   <div class="container">
+    <!-- game-container -->
+  <div class="game-container">
+<div class="images">
+    <img src="Rock.jpg" alt="" id="Rock">
+    <img src="Paper.jpg" alt="" id="Paper">
+    <img src="Scissors.jpg" alt="" id="Scissors">
+</div>  
+<!-- score -->
+<div class="score">
+  <div class="userscore">
+  <h3>User score</h3>
+  <p id="user">0</p>
+  </div>
+  <div class="compscore">
+    <h3>Computer score</h3>
+    <p id="computer">0</p>
+    </div>
+  
+</div>
+<!-- button for turn -->
+<Button class="btn">Play your turn</Button>
+<!-- reset button -->
+<div>
+  <button class="reset">Reset</button>
+</div>
+  </div>
+
+   </div> 
+   <script src="app.js"></script>
+</body>
+</html>
